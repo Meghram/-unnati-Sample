@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery - Unnati Welfare Society</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 1px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-left: 143px;
+      }
+
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .gal {
+        text-align: center;
+        margin-top: 0px;
+        border: 2px solid greenyellow;
+        background-color: rgb(195, 253, 107);
+        font-size: 2rem;    
+      }
+
+      .gallery-container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 20px;
+      }
+
+      .gallery-item img {
+        width: 100%;
+        display: block;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      footer {
+        display: block;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1px 0;
+      }
+      .bc {
+        margin-left: 59px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="bc"><a href="/HOME.html">Home</a></li>
+          <li>
+            <a href="/about.html"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="/work.html"
+              >Workshops</a
+            >
+          </li>
+          <li>
+            <a href="/gallery.html"
+              >Gallery</a
+            >
+          </li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="gal">Gallery</div>
+
+    <section class="gallery-container">
+      <div class="gallery-item">
+        <img src="/day 1 ladoo.jpg" alt="Workshop 1" />
+        <img src="/dheeraj.jpg" alt="Workshop 1" />
+      </div>
+      <div class="gallery-item">
+        <img src="/everybody group photo.jpg" alt="Workshop 2" />
+      </div>
+      <div class="gallery-item">
+        <img src="/in class group chi photo.jpg" alt="Workshop 3" />
+      </div>
+      <div class="gallery-item">
+        <img src="/our group ph.jpg" alt="Workshop 4" />
+      </div>
+      <div class="gallery-item">
+        <img src="/shreyanshi teac.jpg" alt="Workshop 5" />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="/WhatsApp Image 2024-03-09 at 13.08.48_f7b54423.jpg"
+          alt="Workshop 6"
+        />
+      </div>
+      <!-- Add more gallery items -->
+    </section>
+    <footer>
+      <p>&copy; 2024 Unnati Welfare Society. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
